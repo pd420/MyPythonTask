@@ -25,3 +25,6 @@ if (isWordPresent(str1, word)):
     print("Yes") 
 else: 
     print("No") 
+
+
+Output = Yes
