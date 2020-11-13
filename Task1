@@ -1,0 +1,102 @@
+#Task 1) go through some of the other in built functions in python
+
+
+Function   	Description
+
+A)abs()     	Returns the absolute value of a number
+ Example
+   Return the absolute value of a number:
+    x = abs(-7.25)
+    Output= 7.25
+    
+B)bin()	      Returns the binary version of a number
+  Example
+    Return the binary version of 36:
+    x = bin(36)
+    Output= 0b100100
+
+C)bool()    	Returns the boolean value of the specified object
+              The bool() function returns the boolean value of a specified object.
+              The object will always return True, unless:
+              The object is empty, like [], (), {}
+              The object is False
+              The object is 0
+              The object is None
+  Example
+    Return the boolean value of 1:
+    x = bool(1)
+    Output= True 
+
+D)bytes()	    Returns a bytes object
+  Example
+    Return an array of 4 bytes:
+    x = bytes(4)
+    Output= b'\x00\x00\x00\x00' 
+
+E)chr()	      Returns a character from the specified Unicode code.
+  Example
+    Get the character that represents the unicode 97:
+    x = chr(97) 
+    Output= a 
+
+F)complex() 	Returns a complex number
+  Example
+    Convert the number 3 and imaginary number 5 into a complex number:
+    x = complex(3, 5)
+    Output= (3+5j) 
+
+G)delattr() 	Deletes the specified attribute (property or method) from the specified object
+  Example
+    Delete the "age" property from the "person" object:
+    class Person:
+       name = "John"
+      age = 36
+      country = "Norway"
+    delattr(Person, 'age')
+# The Person object will no longer contain an "age" property
+
+H)dict()	    Returns a dictionary (Array)
+  Example
+    Create a dictionary containing personal information:
+    x = dict(name = "John", age = 36, country = "Norway")
+    Output= {'name': 'John', 'age': 36, 'country': 'Norway'} 
+ 
+  I)float()	    Returns a floating point number
+  Example
+  Convert the number 3 into a floating point number:
+  x = float(3)
+  Output= 3.0
+
+J)range()   	Returns a sequence of numbers, starting from 0 and increments by 1 (by default)
+  Example
+    Create a sequence of numbers from 0 to 5, and print each item in the sequence:
+    x = range(6)
+    for n in x:
+    print(n)
+    Output=
+          0
+          1
+          2
+          3
+          4
+          5  
+
+K)int()	      Returns an integer number
+Example
+  Convert the number 3.5 into an integer:
+  x = int(3.5)
+  Output = 3 
+
+L)len()	      Returns the length of an object
+Example
+  Return the number of items in a list:
+  mylist = ["apple", "banana", "cherry"]
+  x = len(mylist) 
+  Output = 3 
+
+M)list()    	Returns a list
+Example
+  Create a list containing fruit names:
+  x = list(('apple', 'banana', 'cherry')) 
+  Output = ['apple', banana', 'cherry']
+
