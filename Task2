@@ -1,0 +1,27 @@
+
+# Task 2) 
+# given a string for example
+str1 = "Welcome to python"
+
+# check if "to" is present in "welcome to python"
+
+
+
+def isWordPresent(sentence, word): 
+
+    s = sentence.split(" ") 
+  
+    for i in s:
+    
+        if (i == word): 
+            return True
+    return False
+  
+str1 = "Welcome to python"
+
+word = "to"
+  
+if (isWordPresent(str1, word)): 
+    print("Yes") 
+else: 
+    print("No") 
