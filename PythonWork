@@ -1,1 +1,34 @@
 # MyPythonTask
+
+#Task 1) 
+            Go through some of the other in built functions in python
+
+
+# Task 2) 
+            # given a string for example
+            str1 = "Welcome to python"
+            # check if "to" is present in "welcome to python"
+
+
+#Task 5)
+
+            dict1 = { 
+               "april_batch":{ 
+                  "student":{ 
+                     "name":"Mike",
+                     "marks":{ 
+                        "python":80,
+                        "maths":70
+                     }
+                  }
+               }
+            }
+            From the above dictionary, do the following tasks
+
+                access "Mike"
+                access 80
+                change "Mike" to "Your name"
+                add ML = 80 and DL = 80 inside marks
+
+
+
