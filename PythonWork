@@ -52,6 +52,10 @@
                 access 80
                 change "Mike" to "Your name"
                 add ML = 80 and DL = 80 inside marks
+                
+                
+#Task 6) 
 
+             Add and remove the elements from a tuple. (Refer workaroud to modify the tuples)
 
 
