@@ -59,3 +59,23 @@
              Add and remove the elements from a tuple. (Refer workaroud to modify the tuples)
 
 
+#Task7)     
+            Go through other inbuilt methods like
+                        
+             1) difference() ,
+             2) symmetric_difference()
+
+
+#Task8)
+             Make a table of all the In-built data structures and Point out the differences one by one
+             
+             
+#Task9)
+             
+             
+Task9
+
+            1) Ask 2 numbers from users and store it in num1 and num2
+            
+            2) Ask user to press 1 for addition,2 for subtraction,3 for multiplication and 4 for division based on number given by user do the
+               math operation
